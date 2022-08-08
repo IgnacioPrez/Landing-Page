@@ -35,6 +35,7 @@
     font-size: x-large;
 }
 .list-container a{
+    color: #212529;
     text-decoration: none;
 }
 
