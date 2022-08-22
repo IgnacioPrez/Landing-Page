@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Encabezado */
+.encabezado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+    justify-content: space-between;
+    box-shadow: 5px 0 8px  #212529;
+}
+.navbar {
+    width:40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar ul {
+    gap: 20px;
+    width: 100%;
+}
+
+
+.logo-container {
+    margin-left: 2em;
+    width: 6em;
+
+}
+.logo-container img {
+    width: 100%;
+}
+.list-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: x-large;
+}
+.list-container a{
+    color: #212529;
+    text-decoration: none;
+}
+
+.list-container a:visited{
+    color: #212529;
+}
+
+.list-container a:hover{
+    border-radius: 5px;
+    padding: 0.3em;
+    background: #bc4749;
+    color: #fff;
+    
+}
+
+/* Cuerpo */
+.cuerpo{
+    margin-top: 2em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.portada{
+    display: flex;
+    width: 80%;
+    height: 35em;
+    gap: 1em;
+    padding: 0.3em;
+}
+.contenido{
+    width: 50%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenido-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    font-weight: 400;
+    color:#5B636A;
+}
+.contenido-texto h2{
+    color: #6C757D;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.contenido-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2em;
+}
+
+.tarjeta-poster{
+    width: 50%;
+    height: 25em;
+    margin: auto 0;
+}
+
+
+.tarjeta-poster > img{
+    width: 100%;
+    height: 100%;
+}
+.button1{
+    border: 2px solid #bc4749;
+    border-radius: 1.5em;
+    padding: 0.6em;
+    font-weight: bold;
+}
+.button1:hover{
+    background-color: #bc4749;
+    color: #F1C40F;
+}
+.button1:first-child{
+    background-color: #bc4749;
+    color: #F1C40F;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    height: 30em;
+    align-items: center;
+}
+.card-info{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 1.5em;
+    box-shadow: 15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-info h2, h3{
+    color:#6C757D;
+}
