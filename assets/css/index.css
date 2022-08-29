@@ -4,13 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background: aliceblue;
+}
 /* Encabezado */
 .encabezado{
     width: 100%;
     display: flex;
     align-items: center;
     gap: 100px;
-    
     justify-content: space-between;
     box-shadow: 5px 0 8px  #212529;
 }
@@ -66,6 +68,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: aliceblue;
+
 }
 .portada{
     display: flex;
@@ -73,6 +77,8 @@
     height: 35em;
     gap: 1em;
     padding: 0.3em;
+    background-color: #fff;
+
 }
 .contenido{
     width: 50%;
@@ -92,7 +98,8 @@
     color:#5B636A;
 }
 .contenido-texto h2{
-    color: #6C757D;
+    color: #bc4749;
+
     font-weight: bold;
     font-size: xx-large;
 }
@@ -132,22 +139,162 @@
 .info{
     display: flex;
     justify-content: center;
-    height: 30em;
+    height: 20em;
+    width: 100%;
     align-items: center;
+    margin-top: 10em;
+    background-color: #fff;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    
 }
 .card-info{
-    width: 60%;
-    height: auto;
+    width: 95%;
+    height: 90%;
     display: flex;
-    align-items: center;
-    padding: 1.5em;
-    box-shadow: 15px 15px 30px #bebebe,
-    -15px -15px 30px #ffffff;
-    flex-direction: column;
+    justify-content: space-between;
+
     gap: 20px;
-    justify-content: center;
+}
+.card-info .title-info{
+    height: 30%;
+    width: 45%;
+    margin: auto 0;
 }
 
+.card-info .info-p{
+    height: 100%;
+    width: 55%;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    color:#5B636A;
+}
 .card-info h2, h3{
-    color:#6C757D;
+    color: #5B636A;
+
+}
+
+.container-benefit{
+    width: 90%;
+    height: 37em;
+    margin-top: 10em;
+    background-color: #fff;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+
+}
+
+.title-benefit{
+    width: 50%;
+    margin: 0 auto;
+}
+.title-benefit h2{
+    text-align: center;
+    font-size: xx-large;
+    color: #5B636A;
+}
+.title-benefit p {
+    font-size: small;
+    margin-top: 1em;
+    color: #5B636A;
+}
+.cards-benefit{
+    display: flex;
+    margin-top: 5em;
+    gap: 1em;
+}
+.card-benefit{
+    height: 27em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    text-align: left;
+    font-size: small;
+    color: #5B636A;
+}
+.card-benefit:hover {
+    border: #006fff 0.2em solid;
+   }
+.card-benefit img{
+    width: 4.5em;
+    margin-top: 1.5em;
+    filter: opacity(0.4) drop-shadow(0 0 0 grey);
+}
+.card-benefit h3{
+    color: #5B636A;
+}
+
+.foot-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 8em;
+    margin-bottom:1em ;
+    background: #fff;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+}
+
+
+.footer-info{
+    width: 50%;
+    height: 80%;
+    font-size: x-large;
+}
+.footer-info h3{
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: max-content;
+    color: #212529;
+    opacity: 0.6;
+}
+.footer-redes{
+    margin-top: 1em;
+}
+.footer-redes h4{
+    color: #212529;
+    opacity: 0.9;
+    margin-left: 0.5em;
+}
+
+.footer-pollos-contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-pollos-contact div{
+    display: flex;
+    gap: 20px;
+    padding: 1.2em;
+}
+.footer-pollos-contact img{
+    color: #212529;
+    opacity: 0.3;
+}
+.footer-pollos-contact p{
+    color: #212529;
+    opacity: 0.9;
+}
+.footer-redes-logo {
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: left;
+    gap: 50px;
+}
+.footer-redes-logo img{
+    width: 1.2em;
+}
+.gustavo{
+    width: 50%;
+}
+
+.gustavo img{
+    width: 100%;
+    height: 100%;
 }
