@@ -1,0 +1,434 @@
+
+
+@media (max-width: 578px) {
+    /* Header */
+    .encabezado{
+        width: 100%;
+        gap: 5px;
+        background-color: #bc4749;
+    }
+    .navbar {
+        width:100%;
+    }
+    .navbar ul {
+        gap: 20px;
+        width: 45%;
+        height: 20em;
+    }
+    
+    .menu-label{
+        display: flex;
+        filter: invert(0.1) sepia(1) grayscale(1) saturate(100%);
+        position: absolute;
+        left: 80%;
+        top: 30px;
+    }
+    .logo-container {
+        margin-left: 0;
+        width: 7em;
+    
+    }
+    .logo-container img {
+        width: 100%;
+    }
+    .list-container{
+        position: absolute;
+        top: 84px;
+        left: 54%;
+        flex-direction: column;
+        border-top: none;
+        padding: 30px ;
+        background-color: #bc4749;
+        gap: 25px;
+        align-items: center;
+        z-index: 2;
+        display: none;
+        font-size: small;
+
+    }
+    .list-container a{
+        color: #fff;
+        width: 100%;
+    }
+
+    .list-container a:hover{
+        border-radius: 5px;
+        padding: 0.3em;
+
+    }
+    #menu-toggle:checked + .list-container {
+        display: flex;
+
+    }
+    /* Main */
+
+    .cuerpo{
+        margin-top: 2em;
+    
+    }
+    .portada{
+        display: flex;
+        width: 95%;
+        height: 55em;
+        gap: 1em;
+        padding: 0;
+        flex-direction: column;
+    
+    }
+    .contenido{
+        width: 100%;
+        height: 50%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .contenido-texto{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenido-texto h2{
+    
+        font-size: large;
+    }
+    .contenido-button{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 2em;
+        
+    }
+    
+    .tarjeta-poster{
+        width: 70%;
+        height: 50%;
+        
+        margin: 0 auto;
+
+    }
+    
+    
+    .tarjeta-poster > img{
+        width: 70%;
+        height: 50%;
+        margin-top: 1em;
+    }
+    .button1{
+        border: 2px solid #bc4749;
+        border-radius: 1.5em;
+        padding: 0.6em;
+        font-weight: bold;
+    }
+    .button1:hover{
+        background-color: #bc4749;
+        color: #F1C40F;
+    }
+    .button1:first-child{
+        background-color: #bc4749;
+        color: #F1C40F;
+    }
+    
+    .info{
+        height: auto;
+        width: 95%;
+        align-items: center;
+        margin-top: 10em;
+        
+    }
+    .card-info{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        font-size: medium;
+    }
+    .card-info .title-info{
+        height: 20%;
+        width: 100%;
+        margin: 0;
+        font-size: small;
+    }
+    
+    .card-info .info-p{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    
+    .container-benefit{
+        width: 100%;
+        height: auto;
+
+        margin-top: 3em;
+        box-shadow: 0.3em 0.3em 0.7em #0000004d;
+    }
+    
+    .title-benefit{
+        width: 100%;
+        margin: 0 ;
+
+    }
+    .title-benefit h2{
+        text-align: center;
+        font-size: medium;
+        color: #5B636A;
+    }
+    .title-benefit p {
+        font-size: small;
+        margin-top: 0.3em;
+    }
+    .cards-benefit{
+        margin-top: 0.4em;
+        gap: 0.3em;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-benefit{
+        width: 100%;
+    }
+    .card-benefit img{
+        width: 4.5em;
+    }
+
+    /* Footer */
+    .foot-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        order: 0;
+        margin-bottom:0em ;
+        border-top: 2px solid #0000001b;
+
+    }
+    
+    
+    .footer-info{
+        height: 50%;
+        font-size: medium;
+        order: 2;
+    }
+
+    .footer-redes{
+        margin-top: 1em;
+    }
+    .footer-redes h4{
+        color: #212529;
+        opacity: 0.9;
+        margin-left: 0.5em;
+    }
+    .footer-pollos-contact div{
+        gap: 10px;
+        padding: 0.8em;
+    }
+
+    .footer-redes-logo {
+        padding: 0.5em;
+        gap: 50px;
+    }
+
+    .gustavo{
+        width: 100%;
+        order: 1;
+        height: 50%;
+    }
+    
+}
+
+@media (max-width: 968px) {
+    /* Header */
+
+    .encabezado{
+        width: 100%;
+        gap: 5px;
+        background-color: #bc4749;
+    }
+    .navbar {
+        width:100%;
+    }
+    .navbar ul {
+        gap: 20px;
+        width: 45%;
+        height: 20em;
+    }
+    
+    .menu-label{
+        display: flex;
+        filter: invert(0.1) sepia(1) grayscale(1) saturate(100%);
+        position: absolute;
+        left:90%;
+        top: 40px;
+    }
+    .logo-container {
+        margin-left: 2em;
+    }
+    .logo-container img {
+        width: 100%;
+    }
+    .list-container{
+        position: absolute;
+        flex-direction: column;
+        border-top: none;
+        padding: 30px ;
+        background-color: #bc4749;
+        gap: 25px;
+        align-items: center;
+        z-index: 2;
+        display: none;
+        top: 85px;
+        left: 55%;
+        font-size: medium;
+
+    }
+    .list-container a{
+        color: #fff;
+        width: 100%;
+    }
+
+    #menu-toggle:checked + .list-container {
+        display: flex;
+    }
+    /* Main */
+
+    .cuerpo{
+        margin-top: 3em;
+    }
+    .portada{
+        display: flex;
+        width: 100%;
+        height: 55em;
+        gap: 1em;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contenido{
+        width: 100%;
+        height: 50%;
+        gap: 30px;
+    }
+
+    .contenido-texto h2{
+        font-size: x-large;
+    }
+    .contenido-button{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 2em;
+    }
+    
+    .tarjeta-poster{
+        width: 60%;
+        height: 40%;
+
+    }
+    
+    
+    .tarjeta-poster > img{
+        width: 100%;
+        height: 100%;
+    }
+    .button1{
+        padding: 1em;
+    }
+    
+    .info{
+        width: 80%;
+        height: auto;
+        margin-top: 10em;
+        display: flex;
+    }
+    .card-info{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card-info .title-info{
+        height: auto;
+        padding: 1em;
+        width: 100%;
+        margin-top: 3em;
+        font-size: medium;
+    }
+    
+    
+    .container-benefit{
+        width: 80%;
+        margin:12em 0;
+        height: auto;
+    }
+    
+    .title-benefit{
+        width: 100%;
+        margin: 0 ;
+
+    }
+    .title-benefit h2{
+        font-size: x-large;
+    }
+    .title-benefit p {
+        font-size: medium;
+        margin-top: 0.3em;
+    }
+    .cards-benefit{
+        margin-top: 3em;
+        gap: 3em;
+    }
+    .card-benefit{
+        height: 18em;
+        width: 100%;
+        margin: 0 auto;
+        height: 22em;
+    }
+
+
+    /* Footer */
+    .foot-container{
+        width: 100%;
+        margin-top: 3em auto;
+    }
+    
+    
+    .footer-info{
+        width: 100%;
+        height: 100%;
+        font-size: large;
+    }
+
+    .footer-redes{
+        margin-top: 1em;
+        margin: 0;
+    }
+    .footer-redes h4{
+        margin-left: 1em;
+        
+    }
+    .footer-pollos-contact div{
+        gap: 20px;
+        padding: 0.5em;
+        margin-left: 0em;
+        font-size: medium;
+
+    }
+
+    .footer-redes-logo {
+        gap: 50px;
+        margin-left: 0em;
+
+    }
+
+    .gustavo{
+        width: 100%;
+        order: 1;
+    }
+    
+}
+

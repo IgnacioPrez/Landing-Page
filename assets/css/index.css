@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: aliceblue;
+    background: rgba(240, 248, 255, 0.784);
 }
 /* Encabezado */
 .encabezado{
@@ -15,6 +15,10 @@ body{
     gap: 100px;
     justify-content: space-between;
     box-shadow: 5px 0 8px  #212529;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
 }
 .navbar {
     width:40%;
@@ -59,6 +63,9 @@ body{
     color: #fff;
     
 }
+#menu-toggle{
+    display: none;
+}
 
 /* Cuerpo */
 .cuerpo{
@@ -68,7 +75,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aliceblue;
+    background: rgba(240, 248, 255, 0.784);
 
 }
 .portada{
@@ -77,7 +84,8 @@ body{
     height: 35em;
     gap: 1em;
     padding: 0.3em;
-    background-color: #fff;
+    background: #fff;
+    box-shadow: 0.3em 0.3em 0.7em #0000004d;
 
 }
 .contenido{
@@ -98,7 +106,7 @@ body{
     color:#5B636A;
 }
 .contenido-texto h2{
-    color: #bc4749;
+    color: #212529;
 
     font-weight: bold;
     font-size: xx-large;
@@ -144,12 +152,13 @@ body{
     align-items: center;
     margin-top: 10em;
     background-color: #fff;
-    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    box-shadow: 0.3em 0.3em 0.7em #0000004d;
+
     
 }
 .card-info{
     width: 95%;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -180,7 +189,8 @@ body{
     height: 37em;
     margin-top: 10em;
     background-color: #fff;
-    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    box-shadow: 0.3em 0.3em 0.7em #0000004d;
+
 
 }
 
@@ -237,7 +247,8 @@ body{
     margin-top: 8em;
     margin-bottom:1em ;
     background: #fff;
-    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    border-top: 2px solid #0000001b;
+    box-shadow: 0.5em 0.5em 0.9em #00000015;
 }
 
 
@@ -289,7 +300,9 @@ body{
 }
 .footer-redes-logo img{
     width: 1.2em;
+    cursor: pointer;
 }
+
 .gustavo{
     width: 50%;
 }
